@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 2;
+    background-color: #333;
+    color:white;
+}
+header h2{
+    margin: 3rem;
+    color:blueviolet;
+}
+main{
+    max-width: 800px;
+    margin: 2rem;
+}
+section{
+    margin:1.5rem;
+}
+h3,p{
+    margin: 1rem;
+}
+li{
+    line-height: 1.6;
+    margin: 1rem;
+}
+.payment{
+    width:300px;
+    position: fixed;
+    right:1rem;
+    top:2rem;
+}
+.payment h2{
+    text-align: center;
+    color:blueviolet
+}
+.price{
+    font-size: 30px;
+    font-weight: 800;
+}
+.button{
+    border:1px solid black;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(129, 83, 172);
+    color:white;
+    border-radius: 6%;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+.coupon{
+    font-weight: 700;
+    font-size: small;
+}
+input{
+    padding:0.5rem 1.3rem;
+    margin-left: 1rem;
+    outline:none;
+    border:1px;
+    border-radius: 5%;
+}
+button{
+    padding:0.5rem 0.6rem;
+    background-color: blueviolet;
+    color:white;
+    border:0;
+    border-radius: 5%;
+    margin-left: 1rem;
+    cursor:pointer;
+}
